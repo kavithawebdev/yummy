@@ -1,0 +1,116 @@
+/* util css*/
+.font-family {
+  font-family: "open sans", sans-serif;
+}
+.margin-0 {
+  margin: 0;
+}
+.padding-0 {
+  padding: 0;
+}
+.font-size-1 {
+  font-size: 1rem;
+}
+
+.font-size-2 {
+  font-size: 2rem;
+}
+.font-weight-7 {
+  font-weight: 700;
+}
+.font-weight-6 {
+  font-weight: 600;
+}
+.img-w-100 {
+  width: 100%;
+}
+
+.text-color-primary {
+  color: #ce1212;
+}
+.text-color-default {
+  color: #212529;
+}
+.text-color-secondary {
+  color: #37373f;
+}
+.text-color-white {
+  color: #ffffff;
+}
+.text-color {
+  color: #7f7f90;
+}
+.bg-color-white {
+  background-color: #ffffff !important;
+}
+.bg-color-primary {
+  background-color: #eeeeee !important;
+}
+.position-rel {
+  position: relative;
+}
+
+/*nav bar*/
+/*
+.yummy-nav > .yummy-nav-bar {
+  padding: 1.5rem 6rem 1.5rem 6rem;
+}
+.yummy-nav .navbar-collapse {
+  padding: 0 1rem 0 4rem;
+}*/
+
+.yummy-nav-btn {
+  color: white;
+  background-color: #ce1212;
+  border-radius: 7rem;
+  border: transparent;
+}
+.yummy-nav-btn:hover {
+  background-color: #ce1212cc;
+}
+.yummy-nav-bar {
+  padding: 1rem 6rem;
+}
+.yummy-nav-ul {
+  padding-left: 4rem;
+  gap: 1.5rem;
+}
+/* 
+ 
+.yummy-line:hover {
+  border-bottom: solid 2px #ce1212cc;
+  opacity: 0;
+  transition: all 0.2s ease;
+}
+*/
+.yummy-nav-fixed-top {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 2;
+}
+.yummy-line {
+  position: relative;
+}
+.yummy-line::after {
+  content: "";
+  height: 2.5px;
+  width: 0%;
+  background: #ce1212;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: all 0.5s ease;
+}
+.yummy-line:hover::after {
+  width: 100%;
+}
+
+/* hero section */
+
+.yummy-hero > .card {
+  position: absolute;
+  top: 90px;
+  border-radius: unset;
+  border: none;
+}
