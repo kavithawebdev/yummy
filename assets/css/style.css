@@ -9,12 +9,17 @@
   padding: 0;
 }
 .font-size-1 {
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 .font-size-2 {
   font-size: 2rem;
 }
+
+.font-size-4 {
+  font-size: 4rem;
+}
+
 .font-weight-7 {
   font-weight: 700;
 }
@@ -49,15 +54,14 @@
 .position-rel {
   position: relative;
 }
+.text-dec {
+  text-decoration: none;
+}
+.red:hover {
+  color: #ce1212;
+}
 
 /*nav bar*/
-/*
-.yummy-nav > .yummy-nav-bar {
-  padding: 1.5rem 6rem 1.5rem 6rem;
-}
-.yummy-nav .navbar-collapse {
-  padding: 0 1rem 0 4rem;
-}*/
 
 .yummy-nav-btn {
   color: white;
@@ -75,14 +79,11 @@
   padding-left: 4rem;
   gap: 1.5rem;
 }
-/* 
- 
-.yummy-line:hover {
-  border-bottom: solid 2px #ce1212cc;
-  opacity: 0;
-  transition: all 0.2s ease;
+.yummy-nav .dropdown-item:hover {
+  background-color: transparent;
+  color: #ce1212;
 }
-*/
+
 .yummy-nav-fixed-top {
   position: fixed;
   right: 0;
@@ -99,7 +100,7 @@
   background: #ce1212;
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: 1px;
   transition: all 0.5s ease;
 }
 .yummy-line:hover::after {
@@ -113,4 +114,36 @@
   top: 90px;
   border-radius: unset;
   border: none;
+  padding-top: 4rem;
+}
+.yummy-hero .card-title {
+  font-family: "Amatic SC", sans-serif;
+}
+
+.yummy-hero .col-md-8 {
+  width: 38%;
+}
+.yummy-hero .btn {
+  padding: 0.6rem 2.3rem;
+  transition: 0.6s;
+  box-shadow: 0 10px 30px #ce121233;
+}
+.hero-btn-video {
+  display: flex;
+  gap: 2rem;
+  padding: 1.5rem 0;
+}
+.hero-video-icon {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.yummy-hero .row {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  align-items: center;
+}
+.yummy-hero .col-md-4 {
+  width: 38%;
 }
