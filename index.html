@@ -40,9 +40,9 @@
   </head>
   <body class="margin-0 padding-0 position-rel">
     <!--nav bar-->
-    <section class="yummy-nav bg-color-white">
+    <section class="yummy-nav bg-color-white yummy-nav-fixed-top">
       <nav
-        class="navbar navbar-expand-lg navbar-light bg-light yummy-nav-bar bg-color-white yummy-nav-fixed-top"
+        class="navbar navbar-expand-lg navbar-light bg-light yummy-nav-bar bg-color-white"
       >
         <div class="container-fluid">
           <a class="navbar-brand font-size-2 font-weight-7" href="#"
@@ -66,13 +66,15 @@
                 <a
                   class="nav-link active text-color font-weight-6 yummy-line"
                   aria-current="page"
-                  href="#"
+                  href="#hero"
                   >Home</a
                 >
               </li>
 
               <li class="nav-item">
-                <a class="nav-link text-color font-weight-6 yummy-line" href="#"
+                <a
+                  class="nav-link text-color font-weight-6 yummy-line"
+                  href="#about"
                   >About</a
                 >
               </li>
@@ -141,7 +143,7 @@
     </section>
 
     <!--hero section-->
-    <section class="yummy-hero">
+    <section id="hero" class="yummy-hero">
       <div class="card mb-3 bg-color-primary">
         <div class="row g-0">
           <div class="col-md-8">
@@ -180,6 +182,61 @@
               alt="hero-img"
             />
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section-->
+    <section id="about" class="yummy-about">
+      <div class="about-header text-center">
+        <h6 class="text-color about-head">ABOUT US</h6>
+        <p class="para font-size-3">
+          LEARN MORE <span class="text-color-primary">ABOUT US</span>
+        </p>
+      </div>
+      <div class="main-card">
+        <div class="main-card-bg">
+          <div class="bg-contact">
+            <h4 class="font-weight-7">Book a Table</h4>
+            <p class="text-color-primary bg-contact-para">+1 5589 55488 55</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+            <p class="card-para font-size-1 text-style">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <p class="font-size-1">
+              <i class="fa-solid fa-check-double text-color-primary"></i>
+
+              Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+
+            <p class="font-size-1">
+              <i class="fa-solid fa-check-double text-color-primary"></i> Duis
+              aute irure dolor in reprehenderit in voluptate velit.
+            </p>
+            <p class="font-size-1">
+              <i class="fa-solid fa-check-double text-color-primary"></i>
+              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+              irure dolor in reprehenderit in voluptate trideta storacalaperda
+              mastiro dolore eu fugiat nulla pariatur.
+            </p>
+
+            <p class="card-text font-size-1">
+              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+              irure dolor in reprehenderit in voluptate velit esse cillum dolore
+              eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident
+            </p>
+          </div>
+          <img
+            src="assets/images/about-2.jpg"
+            class="card-img-bottom"
+            alt="about"
+          />
         </div>
       </div>
     </section>
